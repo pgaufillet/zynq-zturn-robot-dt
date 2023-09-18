@@ -10,6 +10,8 @@
 
 &gem0 {
 	ethernet_phy: ethernet-phy@0 {
-		reg = <0x0>;
+                compatible = "atheros,ar8035";
+                device_type = "ethernet-phy";
+                reg = <0x0>;
 	};
 };
